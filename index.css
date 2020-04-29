@@ -10,7 +10,7 @@ body {
   width: 100vw;
   /* your properties here */
   grid-auto-rows: 50px;
- grid-template: [header-start] 1fr [header-end] 1fr 1fr 1fr / 1fr 1fr 1fr;
+ grid-template:auto/ 1fr 1fr 1fr;
 }
 
 .grid-item {
